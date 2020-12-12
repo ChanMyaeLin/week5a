@@ -1,0 +1,67 @@
+.f1{
+background-color: gainsboro;
+}
+.f3{
+    width:100%;
+    height:200px;
+    background-color: blue;
+}
+.footer{
+    background-color: gainsboro;
+}
+h2{
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: block;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li a:hover{
+color:red;
+}
+.package{
+    text-align: center;
+}
+.view{
+    text-align: end;
+}
+.col1{
+    position:absolute;
+
+}
+.col2{
+    position:absolute;
+    left:1110px;
+    z-index:10;
+}
+.col3{
+    
+    position:absolute;
+    left:1050px;
+    z-index:20;
+}
+.box4{
+    width:300px;
+    height:80px;
+    top:70px;
+    left:780px;
+    color:white;
+    text-align: left;
+    background-color: rgb(233, 222, 222);
+    position:absoulte;
+    padding-top: 8px;
+    padding-left: 40px;
+    z-index: 5;
+    border-radius: 40px 0px 0px 40px;
+    
+}
+.row7{
+    position: relative;
+}
+
+
+

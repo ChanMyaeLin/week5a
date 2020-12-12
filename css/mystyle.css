@@ -1,0 +1,44 @@
+.container{
+    background-color: gray;
+}
+.row1{
+    background-color: green;
+    border: solid black 2px;
+   
+}
+
+
+.row2{
+    background-color: yellow(21, 218, 21);
+    border: solid black 2px;
+}
+.row3{
+    background-color: blue;
+    border: solid black 2px;
+}
+.col{
+    border: solid black 2px;
+}
+
+.col1{
+    
+    background-color: greenyellow;
+    border-radius: 200px;
+}
+.box{
+    border: solid black 2px;
+}
+.box1{
+    border: solid rgb(116, 172, 13) 2px;
+}
+.container-fluid{
+    border: solid black 2px;
+}
+.footer{
+    background-color: grey;
+    height:300px;
+   
+}
+.footer > .box{
+    height:300px;
+}

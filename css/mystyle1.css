@@ -1,0 +1,16 @@
+.container{
+    background-color: gray;
+}
+.row{
+    background-color: green;
+  
+   
+}
+.col{
+    
+    height: 200px;
+}
+
+.footer{
+    background-color: gray;
+}

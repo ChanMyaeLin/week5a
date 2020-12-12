@@ -1,0 +1,441 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+    nav{
+        background-color: gray;
+        width:100%;
+        height:60px;
+        }
+        nav > ul{
+            float: right;
+            padding-top: 20px;
+        }
+        nav > ul li{
+            float: left;
+            list-style: none;
+            text-align: center;
+           
+        }
+        nav > ul li a{
+            text-decoration: none;
+            padding: 0px 20px 0px 20px;
+            color: wheat;
+        }
+        nav> ul > li > a:hover {
+           
+            color:red;
+        }
+        
+        
+        .banner1{
+            padding: 0 100px 0 100px;
+        }
+        .banner1 > img{
+            max-width: 100%;
+            height: auto;  
+        }
+        .nav1{
+            background-color: rgb(61, 55, 55);
+            width:100%;
+            height:50px;
+        }
+        
+        .nav1 > ul {
+            padding: 10px 10px 0 20px;
+        }
+        .nav1 > ul > li{
+            float: left;
+            list-style: none;
+            text-align: center;
+            padding:10px 0px 30px 8px;
+            font-size: small;
+            font-weight: 20;
+            
+        }
+        .nav1 > ul > li > a{
+            text-decoration: none;
+            color: rgb(241, 237, 232);
+        }
+        .background{
+            width:100%;
+            height:400px;
+            background: url("ytuimage/bannerbackgroud.jpg" )no-repeat; 
+        }
+        .bcontent {
+            font-size: 60px;
+            padding:50px 0 0 0;
+            text-align: center; 
+        }
+        .section{
+            clear: both;
+            
+        }
+        .section{
+           
+            display: grid;  
+            grid-gap:10px; 
+            grid-template-columns: 30% auto;
+            padding:20px 50px 0 20px;
+        }
+        .sidebar{
+            margin-top: -150px;
+            padding-left: 30px;
+            background-color: yellowgreen;
+        
+        }
+        .dcontent{
+            margin-top: -150px;
+            padding-left: 10px;
+            text-align: justify;
+        }
+        .sidebar > ul li {
+            padding-top: 20px;
+        }
+        .sidebar > ul li a{
+            text-decoration: none;
+            font-size: x-large;
+            color: rgb(104, 101, 96);
+        }
+        footer{
+            display: grid;  
+            grid-template-columns: 35% 30% 35%;
+            padding:30px;
+        }
+        .footer1{
+            padding:20px;
+            text-align: justify;
+        }
+        .footer2{
+            padding: 20px 0 0 30px;
+        }
+        .footer3{
+            display: grid;  
+            grid-template-rows: auto auto;
+            padding:30px;
+            float: left;
+        }
+        .img1{
+            display: grid;  
+            grid-template-columns: auto auto;
+            padding: 20px 0px 30px 0;
+        }
+        .img2{
+            display: grid;  
+            grid-template-columns: auto auto;
+            padding: 0px 0px 30px 0;
+        }
+        .section > .sidebar > ul > li > ul {
+            display: none;
+            clear: both;
+        }
+        .section > .sidebar > ul > li:hover > ul {
+            display: block;
+            padding-left: 20px;
+        }
+        .nav1 > ul > .about > ul {
+            display: none;
+            clear: both;
+        }
+        
+        .nav1 > ul > li > a:focus-within{
+           
+            color:red;
+        }
+        .nav1 > ul > li > a:hover{
+           
+            color:red;
+        }
+        .nav1> ul > .about:hover > ul {
+            display: block;
+            padding-left: 20px;
+            position: absolute;
+            top:215px;
+            text-align: left;
+            border: solid gray 1px;
+            background-color: white;
+            padding: 10px 30px 0px 20px;
+        }
+        .nav1> ul > .about > ul > li  {
+            padding-bottom: 20px;
+            font-size: medium;
+            background-color: white;
+            list-style: none;
+        }
+        .nav1> ul > .about > ul > li > a {
+           text-decoration: none;
+        }
+        .nav1 > ul > .admission > ul {
+            display: none;
+            clear: both;
+        }
+        .nav1> ul > .admission:hover > ul {
+            display: block;
+            padding-left: 20px;
+            position: absolute;
+            top:215px;
+            text-align: left;
+            border: solid gray 1px;
+            background-color: white;
+            padding: 10px 30px 0px 20px;
+        }
+        .nav1> ul > .admission > ul > li  {
+            padding-bottom: 20px;
+            font-size: medium;
+            background-color: white;
+            list-style: none;
+        }
+        .nav1> ul > .about > ul > li > a {
+            text-decoration: none;
+         }
+         
+         .nav1> ul > .about > ul > li:hover{
+           
+             background-color: rgb(226, 209, 209);
+            
+          }
+         .nav1> ul > .about > ul > li a:hover{
+             color: green;
+             background-color: rgb(226, 209, 209);
+          
+          }
+        .nav1> ul > .admission > ul > li > a {
+           text-decoration: none;
+        }
+        
+        .nav1> ul > .admission > ul > li:hover{
+          
+            background-color: rgb(226, 209, 209);
+            margin:0px -50px opx -50px;
+            
+         }
+        .nav1> ul > .admission > ul > li a:hover{
+            color: green;
+            background-color: rgb(226, 209, 209);
+         }
+
+
+
+
+@media only screen and (max-width:992px){
+    nav{
+        background-color: gray;
+        width:100%;
+        height:60px;
+        }
+        nav > ul{
+            float: right;
+            padding-top: 20px;
+        }
+        nav > ul li{
+            float: left;
+            list-style: none;
+            text-align: center;
+           
+        }
+        nav > ul li a{
+            text-decoration: none;
+            padding: 0px 20px 0px 20px;
+            color: wheat;
+        }
+        nav> ul > li > a:hover {
+           
+            color:red;
+        }
+        
+        
+        .banner1{
+            padding: 0 100px 0 100px;
+        }
+        .banner1 > img{
+            max-width: 100%;
+            height: auto;  
+        }
+        .nav1{
+            background-color: rgb(61, 55, 55);
+            width:100%;
+            height:80px;
+        }
+        
+        .nav1 > ul {
+            padding: 10px 10px 0 10px;
+        }
+        .nav1 > ul > li{
+            float: left;
+            list-style: none;
+            text-align: center;
+            padding:10px 10px 0px 10px;
+            font-size: medium;
+            font-weight: 20;
+            
+        }
+        .nav1 > ul > li > a{
+            text-decoration: none;
+            color: rgb(241, 237, 232);
+        }
+        .background{
+            width:100%;
+            height:400px;
+            background: url("ytuimage/bannerbackgroud.jpg" )no-repeat; 
+        }
+        .bcontent {
+            font-size: 50px;
+            padding:50px 0 0 0;
+            text-align: center; 
+        }
+        .section{
+            clear: both;
+            
+        }
+        .section{
+           
+            display: grid;  
+            grid-gap:10px; 
+            grid-template-columns: 30% auto;
+            padding:20px 50px 0 20px;
+        }
+        .sidebar{
+            margin-top: -150px;
+            padding-left: 30px;
+            background-color: yellowgreen;
+        
+        }
+        .dcontent{
+            margin-top: -150px;
+            padding-left: 10px;
+            text-align: justify;
+        }
+        .sidebar > ul li {
+            padding-top: 20px;
+        }
+        .sidebar > ul li a{
+            text-decoration: none;
+            font-size: x-large;
+            color: rgb(104, 101, 96);
+        }
+        footer{
+            display: grid;  
+            grid-template-columns: 35% 30% 35%;
+            padding:30px;
+        }
+        .footer1{
+            padding:20px;
+            text-align: justify;
+        }
+        .footer2{
+            padding: 20px 0 0 30px;
+        }
+        .footer3{
+            display: grid;  
+            grid-template-rows: auto auto;
+            padding:30px;
+            float: left;
+        }
+        .img1{
+            display: grid;  
+            grid-template-columns: auto auto;
+            padding: 20px 0px 30px 0;
+        }
+        .img2{
+            display: grid;  
+            grid-template-columns: auto auto;
+            padding: 0px 0px 30px 0;
+        }
+        .section > .sidebar > ul > li > ul {
+            display: none;
+            clear: both;
+        }
+        .section > .sidebar > ul > li:hover > ul {
+            display: block;
+            padding-left: 20px;
+            
+        }
+        .section > .sidebar > ul > li:hover > ul a {
+            
+            font-size: medium;
+        }
+        .nav1 > ul > .about > ul {
+            display: none;
+            clear: both;
+        }
+        
+       
+        
+        .nav1> ul > .about:focus-within > ul {
+            display: block;
+            padding-left: 20px;
+            position: absolute;
+            top:225px;
+            text-align: left;
+            border: solid gray 1px;
+            background-color: white;
+            padding: 10px 30px 0px 20px;
+        }
+        .nav1> ul > .about > ul > li  {
+            padding-bottom: 20px;
+            font-size: medium;
+            background-color: white;
+            list-style: none;
+        }
+        .nav1> ul > .about > ul > li > a {
+           text-decoration: none;
+        }
+        .nav1 > ul > .admission > ul {
+            display: none;
+            clear: both;
+        }
+        .nav1> ul > .admission:focus-within > ul {
+            display: block;
+            padding-left: 20px;
+            position: absolute;
+            top:225px;
+            text-align: left;
+            border: solid gray 1px;
+            background-color: white;
+            padding: 10px 30px 0px 20px;
+        }
+        .nav1> ul > .admission > ul > li  {
+            padding-bottom: 20px;
+            font-size: medium;
+            background-color: white;
+            list-style: none;
+        }
+        .nav1> ul > .about > ul > li > a {
+            text-decoration: none;
+         }
+         
+         .nav1> ul > .about > ul > li:focus-within{
+           
+             background-color: rgb(226, 209, 209);
+            
+          }
+         .nav1> ul > .about > ul > li a:focus-within{
+             color: green;
+             background-color: rgb(226, 209, 209);
+          
+          }
+        .nav1> ul > .admission > ul > li > a {
+           text-decoration: none;
+        }
+        
+        .nav1> ul > .admission > ul > li:hover{
+          
+            background-color: rgb(226, 209, 209);
+          
+            
+         }
+        .nav1> ul > .admission > ul > li a:hover{
+            color: green;
+            background-color: rgb(226, 209, 209);
+         }
+
+}
+
+
+
+
+
+
+
+
